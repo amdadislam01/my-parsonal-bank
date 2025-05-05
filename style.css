@@ -28,3 +28,32 @@ body{
 .balance{
     background-color : orange;
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    .submit-area {
+        padding: 15px;
+    }
+    
+    .status {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    .submit-area {
+        margin-top: 20px;
+    }
+}
